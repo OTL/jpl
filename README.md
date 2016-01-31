@@ -1,2 +1,3 @@
-# jpl
-json plot
+# jps_plot
+json plot using jps
+
