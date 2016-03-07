@@ -44,3 +44,7 @@ if __name__ == '__main__':
     print(extract_data_by_text(j, 'vel.linear'))
     print(extract_data_by_text(j, 'vel.linear.x'))
     print(extract_data_by_text(j, 'pos'))
+
+    j2 = '{"vel": [0.1, -0.5]}'
+    print(extract_data_by_text(j2))
+    print(extract_data_by_text(j2, 'vel'))
